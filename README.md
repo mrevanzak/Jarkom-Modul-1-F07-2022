@@ -37,7 +37,7 @@ Ishaq sedang bingung mencari topik ta untuk semester ini , lalu ia datang ke web
 ```
 http.request.uri contains "detailTopik"
 ```
-Setelah difilter, klik File -> Export Objects -> HTTP, lalu save all. jalankan file htmlnya di local nanti keliatan judul TAnya di page 194
+Setelah difilter, klik File -> Export Objects -> HTTP, lalu save all. jalankan file htmlnya di local nanti keliatan judul TAnya di page 194 <br>
 <img width="468" alt="image" src="https://user-images.githubusercontent.com/73029778/191953053-9c3f2639-1a1b-450c-8255-106e80ed287a.png">
 
 ## Nomer 3
