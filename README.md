@@ -47,6 +47,34 @@ tcp.dstport == 80
 ```
 <img width="468" alt="image" src="https://user-images.githubusercontent.com/73029778/191953191-3a02710c-3616-4d04-ba09-ad2dd24bf47d.png">
 
+## Nomer 4
+Filter sehingga wireshark hanya mengambil paket yang berasal dari port 21! 
+```
+tcp.srcport == 21
+```
+<img width="468" alt="image" src="https://user-images.githubusercontent.com/72080506/192093328-d3d7f7ea-30e2-475e-a3ec-2756ce747482.png">
+
+## Nomer 5
+Filter sehingga wireshark hanya mengambil paket yang berasal dari port 443!
+```
+tcp.srcport == 443
+```
+<img width="468" alt="image" src="https://user-images.githubusercontent.com/72080506/192093523-aedcdd14-60fd-4998-831d-606f7f10c0f4.png">
+
+## Nomer 6
+Filter sehingga wireshark hanya menampilkan paket yang menuju ke lipi.go.id !
+```
+tcp contains lipi.go.id
+```
+<img width="468" alt="image" src="https://user-images.githubusercontent.com/72080506/192093598-97932c9f-a9ae-4372-a195-c3879963b57d.png">
+
+## Nomer 7
+Filter sehingga wireshark hanya mengambil paket yang berasal dari ip kalian!
+```
+ip.src == 192.168.97.216
+```
+<img width="468" alt="image" src="https://user-images.githubusercontent.com/72080506/192093663-22e63284-26ec-46ac-b4ea-a42accde8268.png">
+
 ## Nomer 8
 Untukk dapat mencari informasi terkait percakapan antara dua mahasiswa tentang tindakan kecurangan pada kegiatan praktikum.
 Untuk mendapatkan informasi kita dapat menerapkan filter terhadap tcp yang mengandung kata "jawaban".
